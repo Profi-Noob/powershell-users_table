@@ -14,4 +14,3 @@ For($counter = 0; $counter -lt 6; $counter += 1)
     $output += $row
 }
 $output |Format-Table 
-$output | Export-Csv -Path [destination path]
